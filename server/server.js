@@ -13,9 +13,9 @@ connectDB();
 
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://auth-amber-gamma.vercel.app'
+  'https://auth-amber-gamma.vercel.app',
+  'https://auth-nf1rju9wt-monjittamuli7747-9020s-projects.vercel.app'
 ];
-
 app.use(express.json());
 app.use(cors({
   origin: (origin, callback) => {
